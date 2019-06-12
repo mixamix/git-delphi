@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object BitBtn1: TBitBtn
-    Left = 208
-    Top = 120
+    Left = 96
+    Top = 48
     Width = 75
     Height = 25
     Caption = 'BitBtn1'
