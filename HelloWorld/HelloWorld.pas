@@ -10,6 +10,7 @@ type
   TForm1 = class(TForm)
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    ComboBox1: TComboBox;
     procedure BitBtn1Click(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
   private
@@ -27,7 +28,7 @@ implementation
 
 procedure TForm1.BitBtn1Click(Sender: TObject);
 begin
- ShowMessage('Первые успехи');
+ ShowMessage('Диалоговое окно');
 end;
 
 procedure TForm1.BitBtn2Click(Sender: TObject);
